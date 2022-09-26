@@ -1,7 +1,32 @@
+.flex-box {
+    border: 1px solid;
+}
+
 .col {
     flex: 50%;
+    padding: 10px;
+    height: 300px;
 }
 
 .row {
     display: flex;
+    background-color: #eeeee4;
+}
+
+@media screen and (max-width: 720px) {
+
+  .flex-box {
+        border: 1px solid;
+    }
+
+    .col {
+        flex: 50%;
+        padding: 10px;
+        height: 300px;
+    }
+
+    .row {
+        display: flex;
+        background-color: #eeeee4;
+    }
 }
