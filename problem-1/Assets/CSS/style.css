@@ -1,0 +1,28 @@
+/* Using flex box to control the cells */
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    flex-grow: 0.25; /* Column width is 25% of screen */
+    border: 1px solid; /* 1px border */
+    text-align: center;
+}
+
+/* Cells are in line when max width is 720px */
+@media (max-width: 720px) {
+
+  .cell {
+    width: calc(50% - 2px)
+  }
+}
+
+/* Cells 1 and 2 are on top, Cells 3 and 4 are on bottom when max width is 360px */
+@media (max-width: 360px) {
+
+    .cell {
+      width: calc(100% - 2px)
+    }
+}
+  
