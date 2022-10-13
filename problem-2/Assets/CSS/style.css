@@ -1,0 +1,32 @@
+html {
+    height: 100%;
+    position: relative;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #d2e2fc;
+}
+
+#wrapper {
+    margin-bottom: 5%;
+    padding: 3%;
+    background: #fff;
+}
+
+.app {
+    margin: 5%;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    background: lightblue;
+    padding-top: 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
