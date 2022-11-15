@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rich Web Application Technology</title>
+        <link rel="stylesheet" href="Assets/CSS/style.css">
+        <script src="Assets/Scripts/script.js"></script>
+    </head>
+    <body>
+        <h1 id="site-name">Github User Information</h1>
+        <div id="search-box">
+            <input type="search" placeholder="Username" id="usernameSearch">
+            <button type="submit" id="search-btn" onclick="searchUser()">Search</button>
+        </div>
+
+        <div class="flex-container">
+            <div class="flex-child" id="user-details">
+                <h2>User Profile</h2>
+                <img id="img" src="https://connectkaro.org/wp-content/uploads/2019/03/placeholder-profile-male-500x500.png" alt="User">
+                <p id="name">Name</p>
+                <p id="username">Username</p>
+                <p id="email">Email</p>
+                <p id="location">Location</p>
+                <p id="gists">Number of Gists</p>
+            </div>
+
+            <div class="flex-child" id="user-repos">
+                <h2>User Repos</h2>
+                <div id="repoList">
+                    <p>Name</p>
+                    <p>Description</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

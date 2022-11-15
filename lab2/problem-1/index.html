@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rich Web Application Technology</title>
+        <link rel="stylesheet" href="Assets/CSS/style.css">
+        <script src="Assets/Scripts/script.js"></script>
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="error-wrapper" class="hidden">
+                <div id="error">
+                    <p id="error-message"></p>
+                    <button id="close-error-message">Ok</button>
+                </div>
+            </div>
+            <h2>Phone Directory</h2>
+            <div id="fields">
+                <input type="text" id="name" placeholder="Contact Name" required>
+                <input type="tel" id="phone" placeholder="Mobile Number" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <button id="add_contact" placeholder="Add Contact">Add Contact</button>
+            </div>
+            <br>
+            <div id="search_no">
+                <p>Search contact by Mobile No: <input type="tel" id="phone-search"></p>
+            </div>
+            <br>
+            <div id="contact_summary">
+                <h3>Contact Summary</h3>
+                <table>
+                    <thread>
+                        <th id="sort">Name</th>
+                        <th>Mobile</th>
+                        <th>Email</th>
+                    </thread>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+            <div id="noResult" class="hidden">
+                <p>No Results</p>
+            </div>
+        </div>
+    </body>
+</html>

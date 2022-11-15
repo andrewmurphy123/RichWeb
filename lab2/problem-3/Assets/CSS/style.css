@@ -1,0 +1,97 @@
+body {
+    margin: 0px;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    background-color: #228c8c;
+    border: 3px solid #36cfcf;
+}
+
+#site-name {
+    text-align: center;
+    color: white;
+}
+
+#search-box {
+    background-color: #36cfcf;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 10px;
+    width: 70%;
+    border-radius: 15px;
+}
+
+#usernameSearch {
+    float: left;
+    width: 60%;
+}
+
+button {
+    width: 20%;
+}
+
+#img {
+    height: 140px;
+    width: 140px;
+    padding: 20px 20px 20px 0;
+}
+
+.flex-container {
+    display: flex;
+    overflow: hidden;
+}
+
+.flex-child {
+	margin-top: 15px;
+    flex: 1;
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    word-wrap:break-word;
+    background-color: #ecf0f1;
+    border-radius: 15px;
+    color: black;
+}  
+
+.first-child:first-child {
+    margin-right: 10px;
+}
+
+#user-repos {
+    height: 100%;
+}
+
+#user-details {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+#user-details p {
+    width: 50%;
+    border: 1px solid #0000;
+    padding: 10px;
+}
+
+.repoName {
+	font-weight: bold;
+}
+
+#listofrepos {
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	word-wrap:break-word;
+    position: relative;
+}
+
+.repocell {
+	display: flex;
+	width: 90%;
+	height: 20%;
+    padding: 10px;
+	border: 1px solid black;
+	word-wrap:break-word;
+}

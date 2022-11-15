@@ -1,0 +1,95 @@
+body {
+    background-color: #278385;
+}
+
+#container {
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    position: fixed;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+#fields {
+    background-color: #47c7c9;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid #319091;
+}
+
+#add_contact {
+    font-weight: bold;
+}
+
+#search_no {
+    text-align: center;
+    font-weight: bold;
+}
+
+table {
+    table-layout: fixed;
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table * {
+    border: 1px solid #000;
+}
+
+tr:nth-child(2n) {
+    background-color: #f2f2f2;
+}
+
+#sort {
+    cursor: pointer;
+}
+
+#error-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#error {
+	position: absolute;
+	top: 25vh;
+	left: 25vw;
+	width: 50vw;
+	height: 50vh;
+	background-color: red;
+	color: white;
+}
+
+#error-message {
+	position: relative;
+	height: 80%;
+	padding: 10px;
+	font-size: 40px;
+	text-align: center;
+}
+#close-error-message {
+	position: relative;
+	width: 100%;
+	height: 12%;
+}
+
+
+.hidden {
+    display: none;
+}
